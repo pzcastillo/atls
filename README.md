@@ -37,7 +37,7 @@ Setup on Another Device
             CREATE DATABASE audit_trail_db;
     Option B: Docker (recommended for clean setup)
         docker run --name atls-postgres \
-        -e POSTGRES_PASSWORD=your_password \
+        -e POSTGRES_PASSWORD=yourpassword \
         -e POSTGRES_DB=audit_trail_db \
         -p 5432:5432 \
         -d postgres:16
